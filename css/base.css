@@ -1,0 +1,121 @@
+html , body
+{
+    height:100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+   background-color:#3F5C9A;
+}
+image 
+{
+	padding:0px;margin:0px;
+}
+#jatek
+{
+border-radius:10px;
+/*float:left; */
+    text-align: center;
+    background-color:#cdcdcd;
+    background-image:-moz-linear-gradient(#bbb,#eee,#bbb);
+    background-image:-webkit-linear-gradient(#bbb,#eee,#bbb);
+    overflow:hidden;
+   min-width: 330px;
+
+	border: 2px solid gold;
+	height: 240px;	
+	font-family: 'Slackey';
+z-index:100;	
+}
+.nev 
+{  
+border-radius:10px;
+  box-shadow: inset rgba(255,255,255,0.15) 0px 1px 0px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.15),rgba(0,0,0,0.15));
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.15)), to(rgba(0,0,0,0.15)));
+text-align:left;
+  font: 30px bold;
+  color:#22283E;
+margin:10px;
+}
+
+.vk
+{
+position:relative;
+top:-30px;
+left:30px;
+color:red;
+}
+.sav
+{
+background-image: url('http://infolapok.hu/jatek/img/forog_140.gif');
+background-color: #cccccc;
+height:120px;
+}
+#uzeno{
+border-radius:10px;
+   border: 1px solid rgba(0,0,0,0.15);
+margin-top:20px;
+  color: white;
+  font-size: 26px;
+ 
+}
+#szoveg{
+background-color:#526CA4;
+
+border-radius:10px;
+   border: 1px solid rgba(0,0,0,0.15);
+   border: 1px solid rgba(0,0,0,0.15);
+
+margin-top:18px;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
+#container h1
+{
+    
+    font-size: large;
+    text-align: center;
+    color: white;
+} 
+ .cim
+{
+	color: white;
+	margin:20px;
+    text-align: center;
+    font: 20px Slackey;
+    text-shadow:#000 0px 0px 1px , #000 0px 0px 1px;
+}
+
+
+
+.button
+{
+margin-top:10px;
+
+    text-align: center;
+    color: #fff;
+    box-shadow: inset rgba(255,255,255,0.15) 0px 1px 0px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background-image: -moz-linear-gradient(rgba(255,255,255,0.15),rgba(0,0,0,0.15));
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.15)), to(rgba(0,0,0,0.15)));
+    background-position: 0px -1px;
+    text-shadow:#000 0px 0px 1px;
+    text-decoration: none;
+}
+.button.button-default
+{
+    background-image:-moz-linear-gradient(#77e0fb,#3f93ac);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#77e0fb), to(#3f93ac));
+}
+.button.button-default:hover
+{
+    background-image:-moz-linear-gradient(#ffd539,#af861e);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#ffd539), to(#af861e));
+    cursor:pointer;
+}
+.button.button-default:active
+{
+    background-image:-moz-linear-gradient(#ffb133,#b3671a);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#ffb133), to(#b3671a));
+}
+
